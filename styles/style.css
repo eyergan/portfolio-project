@@ -1,9 +1,49 @@
-body {
-  background-color: pink;
+.first-color {
+  background: #ecfeff;
 }
 
-h1 {
+.second-color {
+  background: #00b7c2;
+}
+
+.third-color {
+  background: #128494;
+}
+
+.hero {
+  background: #ecfeff;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: black;
   font-family: "Playfair Display", serif;
   font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
 }
