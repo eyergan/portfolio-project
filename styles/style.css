@@ -42,6 +42,10 @@ p {
   line-height: 30px;
 }
 
+img {
+  border-radius: 5px;
+}
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -53,6 +57,14 @@ p {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+}
+
+.about-section {
+  padding: 140px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .about-section h1 {
@@ -91,7 +103,7 @@ p {
   padding: 35px 60px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -102,6 +114,15 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .about-section h1 {
+    font-size: 44px;
   }
 
   .btn-branding {
