@@ -114,6 +114,12 @@ img {
   padding: 35px 60px;
 }
 
+.contact-content {
+  background-color: var(--background-color);
+  padding: 38px 46px;
+  border-radius: 15px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
