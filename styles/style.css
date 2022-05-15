@@ -144,6 +144,12 @@ footer {
   margin: 60px 0;
 }
 
+footer .contact-box {
+  background: var(--background-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+
 footer .email-link {
   text-decoration: none;
   color: black;
