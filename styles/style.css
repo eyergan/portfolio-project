@@ -9,7 +9,7 @@
 .hero {
   background: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 135px 20px 125px 20px;
 }
 
 .navbar {
@@ -55,7 +55,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -142,6 +142,7 @@ img {
   background-color: var(--background-color);
   padding: 38px 46px;
   border-radius: 15px;
+  margin-bottom: 50px;
 }
 
 footer {
@@ -194,7 +195,7 @@ footer p {
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 80px 20px 60px;
   }
 
   .content-container {
